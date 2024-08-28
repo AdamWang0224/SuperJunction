@@ -7,7 +7,10 @@ This is the official PyTorch implementation of SuperJunction for retinal image r
 
 * To evaluate SuperJunction, please use the following codes:
  ```bash
- python export_SJ.py export_descriptor configs/magicpoint_retina_repeatability_heatmap.yaml Your_export_folder(superpoint_retina) #This is for exporting the keypoints
- python evaluation_Sj.py + Your_export_path(logs/superpoint_retina/predictions) #This is for visualizing the keypoints
- python calc_precision_recall.py #This is for calculating the precision and recall
+ # This is for exporting the keypoints
+ python export_SJ.py export_descriptor configs/magicpoint_retina_repeatability_heatmap.yaml Your_export_folder(superpoint_retina) 
+ # This is for visualizing the keypoints
+ python evaluation_Sj.py + Your_export_path(logs/superpoint_retina/predictions)
+ # This is for calculating the precision and recall
+ python calc_precision_recall.py 
  ```
