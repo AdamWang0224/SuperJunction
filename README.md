@@ -3,7 +3,7 @@ This is the official PyTorch implementation of SuperJunction for retinal image r
 
 * For training, please refer to `main.py` and change the corresponding configs under the folder `configs`.
 
-* Regarding the [pretrained models](https://drive.google.com/drive/folders/149c0oxaZ2qNV0X2aqDFcTL6x2j7cpIUN?usp=sharing), please download them here, including the weights of both Superjunction and SuperGlue.
+* Regarding the [pretrained models](https://drive.google.com/drive/folders/149c0oxaZ2qNV0X2aqDFcTL6x2j7cpIUN?usp=sharing), please download them here, including the weights of both SuperJunction and SuperGlue.
 
 * To evaluate SuperJunction, please use the following codes:
  ```bash
